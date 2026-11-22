@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PathoVoyage 弃答实验 · 报告</title>
+<style>
+body{font-family:-apple-system,"PingFang SC",sans-serif;max-width:760px;margin:0 auto;padding:32px;line-height:1.7;color:#16181d;background:#fbfbfa}
+h1{font-size:1.5rem;border-bottom:2px solid #111;padding-bottom:8px}
+.card{display:block;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:16px 18px;margin:14px 0;text-decoration:none;color:inherit}
+.card:hover{border-color:#2563eb;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+.card b{color:#1e3a8a;font-size:1.05rem}
+.card p{margin:6px 0 0;color:#555;font-size:.9rem}
+.tag{font-size:.75rem;background:#eef2ff;color:#3730a3;padding:2px 8px;border-radius:9px;margin-left:8px}
+footer{color:#888;font-size:.8rem;margin-top:24px}
+</style></head><body>
+<h1>PathoVoyage 弃答实验 · 报告</h1>
+<p>基于 TRUECAM（Nat. BME 2026）的保形预测弃答，在 TCGA-COAD/READ 结直肠切片上的真实实验。点下方查看：</p>
+<a class="card" href="abstention_trajectories.html"><b>① 十例完整轨迹 <span class="tag">VLM 智能体</span></b>
+<p>PLIP 初筛 + 导航 + Patho-R1 会诊 + K=8 自洽采样 + 保形弃答，每例的输入→中间→输出。</p></a>
+<a class="card" href="mil_report.html"><b>② MIL 结果报告 <span class="tag">MIL + CP</span></b>
+<p>CONCH 特征 + GatedABMIL + 保形预测：AUROC 0.825，签发 26.8% 时错误率 9.7%（随机 19.6%）。</p></a>
+<footer>数据 TCGA-COAD/READ（公开去标识）· 全部为真实运行结果 · 生成于 2026-11</footer>
+</body></html>
