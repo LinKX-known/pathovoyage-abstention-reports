@@ -19,5 +19,7 @@ footer{color:#888;font-size:.8rem;margin-top:24px}
 <p>PLIP 初筛 + 导航 + Patho-R1 会诊 + K=8 自洽采样 + 保形弃答，每例的输入→中间→输出。</p></a>
 <a class="card" href="mil_attention_heatmaps.html"><b>② MIL 注意力热图 · 143 例 <span class="tag">MIL + CP</span></b>
 <p>CONCH + GatedABMIL + 保形预测：每例一张注意力热图 + 逐例分析 + 26 例误判归因。AUROC 0.821。</p></a>
+<a class="card" href="agent_ood5_normal.html"><b>③ 原模型跑正常组织 5 例（OOD 失败实证）<span class="tag">VLM 原模型</span></b>
+<p>用 PathoVoyage 原模型完整四阶段流水线（PLIP预筛→Qwen-VL导航→Patho-R1会诊→文字仲裁）跑 5 张正常组织，每例全程输入/中间/输出。结果：5/5 全被判「黏液腺癌」并编造证据。</p></a>
 <footer>数据 TCGA-COAD/READ（公开去标识）· 全部为真实运行结果 · 生成于 2026-11</footer>
 </body></html>
